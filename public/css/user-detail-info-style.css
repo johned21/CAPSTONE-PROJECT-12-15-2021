@@ -1,0 +1,161 @@
+#user-card {
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+#user-card #user-card-header {
+    height: 50px;
+}
+
+#user-card-header .btn {
+    align-items: center;
+}
+
+#user-card #user-card-body .title {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(181, 251, 228);
+    border-radius: 5px;
+}
+
+#user-card #user-card-body .title h1 {
+    padding: 10px;
+    font-size: 24px;
+    color: rgb(0, 105, 70);
+}
+
+#parent-info .row .form-group {
+    margin-bottom: -5px;
+}
+
+#parent-info .form-label {
+    font-size: 15px;
+}
+
+#info {
+    margin-top: -15px;
+}
+
+#info .form-label {
+    font-size: 15px;
+}
+
+#username {
+    color: rgb(0, 0, 0);
+}
+
+#users-img {
+    margin-left: 5px;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+#userpp {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+    object-fit: cover;
+}
+
+#users-profile {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#users-info {
+    margin-left: 10px;
+}
+
+#usersinfo ul {
+    margin: 0;
+    list-style: none;
+    padding-left: 0;
+}
+
+#usersinfo ul .editprofile {
+    text-align: right;
+}
+
+#usersinfo ul .editprofile a {
+    padding-left: 1rem;
+    color: #1177d1;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+#usersinfo ul .fullname {
+    margin-top: 2rem;
+}
+
+.details {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+
+.userdetails {
+    padding: 1.30rem;
+}
+
+
+/* button change pass */
+
+.change-pp input[type='file'] {
+    display: none
+}
+
+.change-pp {
+    border-radius: 10px;
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(0, 17, 255, 0.533);
+    left: 0;
+    bottom: 0;
+}
+
+.change-pp:hover {
+    background-color: #0008;
+}
+
+.change-pp label {
+    cursor: pointer;
+    color: #000;
+    text-align: center;
+    display: table;
+    margin: auto;
+}
+
+.change-pp label .links-name {
+    font-size: 17px;
+    color: #fff;
+}
+
+.mb-1 .row ul .change-pp {
+    font-size: 17px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+.change-pp label i {
+    color: #fff;
+    margin-left: 11px;
+    height: 40px;
+    min-width: 10px;
+    line-height: 10px;
+    text-align: center;
+    font-size: 25px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
